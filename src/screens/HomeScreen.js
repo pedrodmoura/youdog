@@ -85,7 +85,7 @@ export default function HomeScreen({ navigation }) {
             onPress={() => handleFilter(size)}
             style={[styles.filterButton, { backgroundColor: theme.primary }]}
           >
-            <Text style={{ color: '#fff', fontWeight: 'bold' }}>{size}</Text>
+            <Text style={{ color: '#424242', fontWeight: 'bold' }}>{size}</Text>
           </TouchableOpacity>
         ))}
       </View>
